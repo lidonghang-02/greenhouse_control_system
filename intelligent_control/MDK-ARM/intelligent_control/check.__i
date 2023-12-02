@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include
+-I C:\Users\24269\Desktop\stm32\HAL\intelligent_control\MDK-ARM\RTE
+-I F:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+-I F:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE
+-o intelligent_control\check.o --omf_browse intelligent_control\check.crf --depend intelligent_control\check.d "..\Core\Src\check.c"
