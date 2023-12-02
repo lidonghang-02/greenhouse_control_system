@@ -57,9 +57,10 @@ ADC1使用下面配置，引脚为`PA1`
 
 开启ADC中断
 
-![pic4](.\pic\pic4.png)
+![pic4](./pic/pic4.png)
 
-![3](.\pic\pic5.png)
+
+![NVIC](./pic/pic5.png)
 
 ### 定时器
 
